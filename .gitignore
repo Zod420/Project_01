@@ -88,4 +88,4 @@ target/
 .mypy_cache/
 
 # Additional
-data/raw
+data/raw/

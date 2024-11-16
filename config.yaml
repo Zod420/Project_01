@@ -1,0 +1,22 @@
+---  # yaml document beginning
+
+# Folder Location
+dir:
+  dataRAW: "../data/raw"
+  dataInterim: "../data/interim"
+  dataProcess: "../data/processed"
+
+# File Name
+file:
+  interim: 'imd_database.csv'
+  train01: 'imd_daily_train.csv'
+  test01: 'imd_daily_test.csv'
+  train02: 'imd_monthly_train.csv'
+  test02: 'imd_monthly_test.csv'
+
+# Import Varaibles
+startYear: 2000
+endYear: 2023
+importVar: ['rain', 'tmin', 'tmax']
+startDate: '2000-01-01'
+cutDate: '2020-01-01'
