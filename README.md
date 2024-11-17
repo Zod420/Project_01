@@ -2,7 +2,7 @@
 
 Link = [How to push code from VS Code to GitHub](https://graphite.dev/guides/how-to-push-code-from-vscode-to-github)
 
-### STEPS
+### STEPS VIA TERMINAL
 1. Add the remote repository:
 ```
 git remote add origin https://github.com/Zod420/Project_01.git 
