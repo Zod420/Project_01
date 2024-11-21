@@ -14,26 +14,34 @@ file:
   test01: 'imd_daily_test.csv'
   train02: 'imd_monthly_train.csv'
   test02: 'imd_monthly_test.csv'
+  train03: 'imd_weekly_train.csv'
+  test03: 'imd_weekly_test.csv'
   sarima01: 'sarima_daily.csv'
   sarima02: 'sarima_monthly.csv'
 
-# Import Varaibles
+# Import Variables
 startYear: 2000
 endYear: 2023
 importVar: ['rain', 'tmin', 'tmax']
 startDate: '2000-01-01'
 cutDate: '2020-01-01'
 
-# SARMIA Model Varaibles
+# SARMIA Model Variables
 SAMIRA:
-  m: 12
   dChoices: [ 
     [1, 0],
     [1, 1],
     [2, 0],
     [2, 1],
     [2, 2]]
+  modelMonthlySingle: 'SARIMA_Monthly_Single_Location_150.pkl'
+  modelMOnthlyAvg: 'SARIMA_Monthly_Avg_All_Location.pkl'
 
-# General Varaibles
+# Clustering Variables
+clustering:
+  kstart: 2
+  kend: 10
+
+# General Variables
 seed: 24
 posCount: 300
