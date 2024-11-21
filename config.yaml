@@ -35,7 +35,7 @@ SAMIRA:
     [2, 1],
     [2, 2]]
   modelMonthlySingle: 'SARIMA_Monthly_Single_Location_150.pkl'
-  modelMOnthlyAvg: 'SARIMA_Monthly_Avg_All_Location.pkl'
+  modelMonthlyAvg: 'SARIMA_Monthly_Avg_All_Location.pkl'
 
 # Clustering Variables
 clustering:
